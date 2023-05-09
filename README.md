@@ -2,6 +2,9 @@
 
 ## 1. install git
 write somethig here
+```
+sudo apt -y install git
+```
 
 ## 2. Get the repo link
 copy the repository link https://github.com/Sid123789/Help.git
