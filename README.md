@@ -1,6 +1,6 @@
 # How to run this project
 
-## 1. install git
+## __1. Install git__
  Git mainly helps to track the code change and it also used for code collabration.
  To install git do follow the commands given below:
 
@@ -8,10 +8,10 @@
 sudo apt -y install git
 ```
 
-## 2. Get the repo link
+## __2. Get the repo link__
 copy the repository link https://github.com/Sid123789/Help.git
 
-## 3. Clone the repo 
+## __3. Clone the repo__
 When an repository is created in Github.com, it exists in remote repository. So by cloning your repository, it will create a local copy on your local system and sync that between two locations.
 * To clone the repo:
     1. Navigate to the main page of the repository.
@@ -21,8 +21,8 @@ When an repository is created in Github.com, it exists in remote repository. So 
         * To clone repo using GitHub CLI, click GitHub CLI.
 We used Github CLI to run our application.  
 
-## 4. Run the code
-### 4.1. Build the runtime (first time only)
+## __4. Run the code__
+### __4.1. Build the runtime (first time only)__
 To run the code in runtime, do the following instruction:
   1. lets create a shell script in the name of 'run.sh' and 
   2. Using the if condition run the another script named 'build.sh'. If the given variable a is true, then the build script will be executed, otherwise it will ended as shown below: 
@@ -40,21 +40,30 @@ To run the code in runtime, do the following instruction:
             end
             fi
 
-### 4.2. Run the code for exisiting runtime 
+### __4.2. Run the code for exisiting runtime__ 
 To run the code on existing run time. Run the build.sh script code. It holds the set of commands, to run the application. 
 To run the activate code, we need venv. venv is nothing but an virtual environment that depends on the os we use in our application.
 
 ```
     sudo apt -y install python3 python3-pip python3-venv
 ```
+_To get into the virtual environment use:_
+```
+python3 -m venv venv
+```
+_To activate the venv use:_
+```
+source /venv/bin/activate
+```
+_To install & upgrade pip in python3:_
+```
+python3 -m pip install --upgrade pip
+```
+_Finally install the requirements that supports to build the application_
+```
+pip install -r requirements.txt
+```
 
-__sdnawnd__ _lnxclwndkl_ 
-1. afked
-1. nkdnwokd
 
-* jpijwpdow
-* ndlanwmdpw
- 
-try `python3 start.py` scjspmdwmdl 
-## Output 
+## __5. Output__ 
 ![](figs/fornt_page.png)
