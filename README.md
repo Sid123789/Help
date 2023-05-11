@@ -30,14 +30,7 @@ To run the code in runtime, do the following instruction:
    ```
     sudo apt -y install python3 python3-pip python3-venv
    ```
-  3. To get into the virtual environment use:
-   ```
-    python3 -m venv venv
-   ```
-  4. To activate the venv use:_
-   ```
-    source /venv/bin/activate
-   ```
+ 
   5. To install & upgrade pip in python3:_
    ```
     python3 -m pip install --upgrade pip
